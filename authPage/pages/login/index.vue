@@ -15,8 +15,8 @@
         </form>
         <div class="flex flex-row items-center justify-center gap-2 py-8">
             <button class="bg-orange-500 text-white border-black border-2 py-2 px-5" @click="setColorTheme($colorMode.preference == 'dark' ? 'light' : 'dark')">
-                <Icon name="material-symbols:dark-mode" v-if="$colorMode.value == 'dark'" />
-                <Icon name="material-symbols:light-mode" v-else />
+                <!--Icon name="material-symbols:dark-mode" v-if="$colorMode.value == 'dark'" />
+                <Icon name="material-symbols:light-mode" v-else /-->
             </button>
         </div>
     </div>
@@ -30,7 +30,7 @@ const setColorTheme = (Theme) => {
 }
 
 useHead({
-    title: `Login Page`,
+    title: `Login: demo-k8s-app`,
     link: [{ hid: 'icon', rel: 'icon', type: 'image/svg', href: '/favicon.svg' }]
 })
 

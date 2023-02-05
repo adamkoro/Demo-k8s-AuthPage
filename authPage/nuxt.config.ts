@@ -1,6 +1,6 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
-    modules: ['@nuxtjs/tailwindcss', '@nuxtjs/color-mode',  '@nuxt/image-edge', 'nuxt-icon'],
+    modules: ['@nuxtjs/tailwindcss', '@nuxtjs/color-mode',  '@nuxt/image-edge'],
     colorMode: {
         classSuffix: ''
     },
